@@ -20,11 +20,68 @@
         </div>
         <div class="controls">
             <div class="control-group">
-                <label for="sizeSelec">Tamaño</label>
+                <label for="sizeSelec">Velocidad</label>
+                <select id="sizeSelec">
+                    <option value="10" selected>10x10</option>
+                    <option value="12">12x12</option>
+                    <option value="15">15x15</option>
+                    <option value="20">20x20</option>
+                </select>
             </div>
         </div>
+        <div class="control-group">
+            <label for="SpeedSelec">velocidad</label>
+            <select id="SpeedSelec">
+                <option value="150" selected>Lenta</option>
+                <option value="100">Normal</option>
+                <option value="70">Rapida</option>
+                <option value="50">Ultra Rapida</option>
+            </select>
+        </div>
+    </div>
+    <div class="control-group">
+        <label for="ModeSelec">Modo</label>
+        <select id="ModeSelec">
+            <option value="walls" selected>Paredes</option>
+            <option value="wrap">Teletraportarse</option>
+        </select>
+    </div>
     </section>
-    
+    </div>
+        <div class="control-group">
+            <label for="skinSelec">Skin</label>
+            <select id="skinSelec">
+                <option value="clásico" selected>Clásico</option>
+                <option value="neón">Neón</option>
+                <option value="retro">Retro</option>
+                <option value="matrix">Matrix</option>
+            </select>
+        </div>
+    </div>
+    <div class="control-group">
+        <label for="volumeSlider">Volumen</label>
+        <Input type="range" id="volumeSlider" min="0" max="100" value="40">
+      </div>
+      <button id="start">start ╰(*°▽°*)╯</button>
+      <button id="pause">pause 🫥</button>
+    </section> 
+<div class="board"></div>
+<section class="help">
+    <p>Controles: Flechas para mover, <kbd>Espacio</kbd> pausar/reanudar, <kbd>R</kbd> reiniciar.</p>
+</section>
+<div class="ganeOver" class="overlay">
+   <div class="overlay-card">
+    <h2>Game Over 🤦‍♂️😶‍🌫️😡🤬</h2>
+    <p>Mejor Puntaje: <span id="finalBest">0</span> </p>
+    <p>Puntaje: <span id="finalScore">0</span> </p> 
+    <div class="overlay-actions">
+        <button id="restar">Restar 😾</button>  
+    </div>
+    <p class="hint">Pulsa <kbd>R</kbd> para reiniciar o <kbd>Enter</kbd> para emzar un nuevo juego</p>
+   </div> 
+</div>
+
 </body>
 </html>
+
 
