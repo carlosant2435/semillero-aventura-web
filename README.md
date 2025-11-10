@@ -15,3 +15,5 @@ este es un repertorio para el semillero aventura web donde nos construiremos un 
 * lenguaje java script
 * lenguaje css
  
+# link de juego
+https://phenomenal-jalebi-a44e1b.netlify.app/
