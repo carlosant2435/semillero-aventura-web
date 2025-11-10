@@ -1,4 +1,3 @@
-
 //Elementos dinamicos HTML
 const board = document.getElementById("board");
 const scoreBoard = document.getElementById("scoreBoard");
